@@ -25,6 +25,9 @@
                     <li>
                         <a href="#members"> Members!</a>
                     </li>
+                    <li>
+                        <a href="#contact"> Become Members!</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -135,6 +138,102 @@
                 </table>
             </details>
         </aside>
+    </article>
+
+    <hr>
+
+    <article id="contact">
+        <h2>Want to become one of Strawhats?</h2>
+        <p>If you want adventure, join in!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Nakama Info</legend>
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="nakama name?" autocomplete="on" required >
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="nakama surrname?" autocomplete="on" required >
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="secret?" required >
+            </p>
+            <p>
+                <label for="dendenmushi">Den den mushi:</label>
+                <input type="tel" name="dendenmushi" id="dendenmushi" placeholder="xxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+            </p>
+            <p>
+                <label for="favn">Fav number between 0-9:</label>
+                <input type="number" name="favn" id="favn" min="0" max="9" value="0">
+            </p>
+<!--
+            <p>
+                <label for="share">Would you share your food with the captain?</label>
+                <select name="share" id="share" multiple size="5">
+                    <optgroup label="YES!!">
+                        <option value="yes">yes</option>
+                        <option value="yes2">YES</option>
+                    </optgroup>
+                    <optgroup label="YeS!">
+                        <option value="yes3">of Course!</option>
+                        <option value="yes4">not YESn't</option>
+                    </optgroup>
+                </select>
+            </p> 
+-->
+            <p>
+                <label for="share">Would you share your food with the captain?</label>
+                <input type="text" name="share" id="share" list="options">
+                <datalist id="options">
+                    <option value="yes">
+                    <option value="YES">
+                    <option value="OF COURSE">
+                    <option value="NO no yesn't">
+                </datalist>
+            
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>FAV FOOD??</legend>
+            <p>
+                <input type="checkbox" name="food" id="meat" value="meat">
+                <label for="meat">Meat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="food" id="veggies" value="veggies">
+                <label for="veggies">Veggies</label>
+            </p>
+            <p>
+                <input type="checkbox" name="food" id="mushroom" value="mushroom">
+                <label for="mushroom">Mushroom</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Are you allergic to seastone?</legend>
+            <p>
+                <input type="radio" name="hm" id="yes1" value="yes">
+                <label for="yes1">YES</label>
+            </p>
+            <p>
+                <input type="radio" name="hm" id="no1" value="no">
+                <label for="no1">NO</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Send Strawhats a message!</legend>
+            <label for="message">Your message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message!"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+        </form>
+
     </article>
     </main>
     
