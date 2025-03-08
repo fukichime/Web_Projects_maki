@@ -12,24 +12,25 @@
     </head>
 
     <body>
-        <h1>ONE PIECE</h1>
-        <p>One piece is the peak.</p>
-        <P><abbr title = "One Piece"> <a href="https://one-piece.com/index.html">OP</a> </abbr></P>
-       
-    <hr>
-    <nav>
-        <ul>
-            <li>
-                <a href="#strawhat"> Strawhat Pirates!</a>
-            </li>
-            <li>
-                <a href="#members"> Members!</a>
-            </li>
-        </ul>
-    </nav>
-
-
-    <section id="strawhat">
+        <header>
+            <h1>ONE PIECE</h1>
+            <p>One piece is the peak.</p>
+            <hr>
+            <P><abbr title = "One Piece"> <a href="https://one-piece.com/index.html">OP</a> </abbr></P>
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="#strawhat"> Strawhat Pirates!</a>
+                    </li>
+                    <li>
+                        <a href="#members"> Members!</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+   
+    <main>
+    <article id="strawhat">
     <hr>
 
         <h2>STRAWHAT PIRATES</h2>
@@ -56,24 +57,26 @@
             </dl>
         </address>
 
-    </section>
+    </article>
     <hr>
     
-    <section id="members">
+    <article id="members">
         <h3>MEMBERS</h3>
-        <h4>Monkey D. Luffy</h4>
-        <figure>
-            <img src="images/luffy.png" alt="Luffy" title="Luffy's pic!!" width="447" height="334" loading="lazy">
-            <figcaption> Monkey D. Luffy</figcaption>
-        </figure>
-        <p>About Luffy</p>
+        <section>
+            <h4>Monkey D. Luffy</h4>
+            <figure>
+               <img src="images/luffy.png" alt="Luffy" title="Luffy's pic!!" width="447" height="334" loading="lazy">
+                <figcaption> Monkey D. Luffy</figcaption>
+            </figure>
+            <p>About Luffy</p>
             <ul>
             <li>Luffy will become <strong><em>the pirate king.</em></strong></li>
             <li>Meat lover</li>
             <li>The man</li>
             </ul>
-        
+        </section>
 
+        <section>
         <h4>Roronoa Zoro</h4>
         <figure>
             <img src="images/zoro.png" alt="Zoro" title="Zoro's pic!!" width="401" height="477" loading="lazy">
@@ -84,14 +87,65 @@
             <li>Moss head.</li>
             <li>Righthand man</li>
             </ul>
-
+        </section>
         <!--Add other members later-->
-    </section>
+        <aside>
+            <details>
+                <summary>
+                    Guess the <mark>number of members</mark> Strawhats!
+                </summary>
+                <p>Total of 10!</p>
+                <!--If necessary datetime tag can be used for-->
+                <br>
+                <table>
+                    <caption>Strawhats Members</caption>
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th scope="col">Members</th>
+                        <th scope="col">Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Monkey d. Luffy</td>
+                        <td>Captain</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" scope="row">2</th>
+                        <td rowspan="2">Roronoa Zoro</td>
+                        <td>Swordsman</td>
+                    </tr>
+                    <tr><td>Crew Combatant</td></tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Nami</td>
+                        <td>Navigator</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">We all part of this crew</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">We are!</td>
+                    </tr>
+                </tfoot>
+                </table>
+            </details>
+        </aside>
+    </article>
+    </main>
+    
     <hr>
-        &lt;&lt;&lt; &copy; <a href="about.html">Makiaki</a> &gt;&gt;&gt;
+    <footer>
+       <p> &lt;&lt;&lt; &copy; <a href="about.html">Makiaki</a> &gt;&gt;&gt;
+        </p>
         <p>
             <a href="#">Back to top</a>
         </p>
+    </footer>
     </body>
 
 </html>
