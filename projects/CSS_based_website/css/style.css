@@ -1,22 +1,23 @@
-* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container {
+} */
+/* .container {
     border: 2px double red;
     font-size: 1.5rem;
     margin: 1.5em 2em;
-/*     margin-top: 1.5em;
+    margin-top: 1.5em;
     margin-right: 2em;
     margin-left: 2em;
-    margin-bottom: 2em; */
+    margin-bottom: 2em;
     padding: 1.5em;
     outline: 5px solid purple;
     outline-offset: 5px;
-}
+} */
 
-.circle {
+/* .circle {
     margin: 2rem auto;
     background-color: lightcoral;
     width: 100px;
@@ -25,4 +26,19 @@
     border-radius: 50px;
     outline: 2px solid cornflowerblue;
     outline-offset: 0.25rem;
+} */
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    line-height: 1.5;
+    
 }
