@@ -43,6 +43,8 @@ p {
     
 }
 
+
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -62,22 +64,22 @@ a:active {
     color: yellowgreen;
 }
 
-ol {
+.ol-list ol {
     list-style-type: lower-roman;
 }
 
-ol ::marker {
+.ol-list ::marker {
     color: blueviolet;
     font-family: Helvetica;
     content: "!!! ";
 }
 
-ul {
+.ul-list {
     list-style-type: none;
     padding-left: 40px;
 }
   
-ul li {
+.ul-list li {
     background-image: url('../images/thumbs.png');
     background-repeat: no-repeat;
     background-size: 32px 32px;
@@ -85,4 +87,45 @@ ul li {
     padding-left: 35px;
     line-height: 1.5;
     font-size: 2rem;
+}
+
+nav {
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+  }
+
+.nav-menu {
+    list-style-type: none !important;
+    list-style-position: inside;
+    line-height: 1.5;
+    padding-left: 0;
+}
+
+.nav-menu li {
+    margin: 0;
+    border-top: 2px solid #333;
+}
+
+.nav-menu a{
+     display: block;
+     padding: 0.5rem 1rem;
+}
+
+.nav-menu a, .nav-menu a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-menu a:hover, .nav-menu a:focus {
+    background: #333;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+nav h2 {
+    padding: 1rem;
+    background: gold;
+ 
 }
