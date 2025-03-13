@@ -42,3 +42,22 @@ p {
     line-height: 1.5;
     
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(0, 59%, 41%);
+}
+
+a:visited {
+    color: hsl(0, 36%, 50%);
+}
+
+a:hover {
+    color:darkred;
+    opacity: 0.9;
+}
+
+a:active {
+    color: yellowgreen;
+}
