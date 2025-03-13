@@ -61,3 +61,28 @@ a:hover {
 a:active {
     color: yellowgreen;
 }
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ol ::marker {
+    color: blueviolet;
+    font-family: Helvetica;
+    content: "!!! ";
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 40px;
+}
+  
+ul li {
+    background-image: url('../images/thumbs.png');
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    background-position: 0 50%;
+    padding-left: 35px;
+    line-height: 1.5;
+    font-size: 2rem;
+}
