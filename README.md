@@ -21,7 +21,7 @@ This website is a static fan page built with HTML and CSS, dedicated to the One 
 
 ## Screenshot
 
-![Website Screenshot](images/screenshot.png)
+![Website Screenshot](images/op-website.png)
 
 ## Technologies Used
 
