@@ -11,12 +11,56 @@ body {
 
 .two-collumn {
     display: grid;
-    gap: 10px;
+    gap: 60px;
 
-    @media (width > 600px) {
+    @media (width > 601px) {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.two-collumn ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.two-collumn ul li {
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.two-collumn p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.two-collumn figure {
+    text-align: center;
+    margin: 0;
+}
+
+.two-collumn figure img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.memberss {
+    background-color: #f0f0f0;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    
+}
+
+.memberss h4 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
 
 header {
     display: flex;
@@ -74,6 +118,41 @@ a:hover, a:active {
     color: #949393;
 }
 
+
+.bingusu p:nth-child(4) {
+    padding-bottom: 1.2rem;
+}
+
+.bingusu {
+    margin-bottom: 3rem;
+    line-height: 1rem;
+}
+
+address {
+    font-family: Helvetica;
+    max-width: 800px;
+    padding: 20px 50px;
+    background: linear-gradient(to right, #ffe6e6, #e0a2ac);
+}
+
+address dl {
+    margin: 0;
+}
+
+address dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #8b0000;
+}
+
+address dd {
+    margin-left: 0;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+
+
 .pop-up {
     align-content: center;
     color: #fff;
@@ -91,10 +170,92 @@ a:hover, a:active {
 
 table, tr, th, td, caption {
     border: 2px solid #eee;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     padding: 0.5rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.7);
 }
+
+.form {
+    margin: 5px;
+    max-width: 800px;
+}
+
+.form form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.form form fieldset{
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 15px;
+}
+
+.form form legend {
+    font-weight: bold;
+    color: #8b0000;
+    padding: 0 10px;
+}
+
+.form form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form form input[type="text"],
+.form form input[type="password"],
+.form form input[type="tel"],
+.form form input[type="number"],
+.form form input[type="email"],
+.form form textarea {
+    width: calc(100%, 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form form input[type="checkbox"],
+.form form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form form button {
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form form button:hover{
+    background: #a00000;
+}
+
+.form form textarea {
+    resize: vertical;
+}
+
+.form form datalist option {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.form form input[list] {
+    width: calc(100% - 22px);
+    
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .back-to-top {
     background-color: #eee;
