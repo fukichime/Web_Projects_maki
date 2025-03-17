@@ -12,239 +12,273 @@
     </head>
 
     <body>
-        <header>
-            <h1>ONE PIECE</h1>
-            <p>One piece is the peak.</p>
-            <hr>
-            <P><abbr title = "One Piece"> <a href="https://one-piece.com/index.html">OP</a> </abbr></P>
-            <nav aria-label="primary-navigation">
-                <ul>
-                    <li>
-                        <a href="#strawhat"> Strawhat Pirates!</a>
-                    </li>
-                    <li>
-                        <a href="#members"> Members!</a>
-                    </li>
-                    <li>
-                        <a href="#contact"> Become Members!</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-   
-    <main>
-    <article id="strawhat">
-    <hr>
-
-        <h2>STRAWHAT PIRATES</h2>
-        <p>BINGUSU NO SAKE WO TODOKE NI YUKU YO..</p>
-        <figure>
-            <figcaption>One Piece as code sample:</figcaption>
-            <p>
-                <code>&lt;h1&gt;ONE PIECE!&lt;/h1&gt;</code>
-            </p>
-        </figure>
-        <img src="images/strawhats.jpg" alt="Strawhats!" title="All the Strawhats" width="572" height="322">
-        <p> Strawhats have been at:</p>
-        <address>
-            <dl>
-                <dt><strong>ELBAF!</strong></dt>
-                <dd>Giant's Island!</dd>
-
-                <dt><strong>EGGHEAD!</strong></dt>
-                <dd>sci-fi place woo</dd>
+        <div class="wrapper">
+            <header>
+                <img src="jollyroger.png" alt="logo" class="logo">
                 
-                <dt><strong>WANO!</strong></dt>
-                <dd>samurai land</dd>
+                <nav class="primary-navigation" aria-label="Primary Navigation">
+                    <ul>
+                        <li>
+                            <a href="#strawhat">Strawhat Pirates</a>
+                        </li>
+                        <li>
+                            <a href="#members">Members</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Become Members!</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+   
+            <main>
+                <div class="header-header">
+                    <h1>ONE PIECE</h1>
+                    <p>One piece is the <span class="peak">PEAK</span></p>
+                </div>
+                <hr>
 
-            </dl>
-        </address>
+                <article id="strawhat">
+                    <h2>STRAWHAT PIRATES</h2>
+                    <p>Yo-ho-ho-ho, yo-ho-ho-ho</p>
+                    <p>Yo-ho-ho-ho, yo-ho-ho-ho</p>
+                    <p>Yo-ho-ho-ho, yo-ho-ho-ho</p>
+                    <p>Yo-ho-ho-ho, yo-ho-ho-ho</p>
+                    <p>BINGUSU NO SAKE WO TODOKE NI YUKU YO..</p>
+                    <!--     <figure>
+                            <figcaption>One Piece as code sample:</figcaption>
+                            <p>
+                                <code>&lt;h1&gt;ONE PIECE!&lt;/h1&gt;</code>
+                            </p>
+                        </figure>
+                    -->
+                    <img src="images/strawhats.jpg" alt="Strawhats!" title="All the Strawhats">
+                    <br>
+                    <p> Strawhats have been at:</p>
+                    <address>
+                        <dl>
+                            <dt><strong>ELBAF!</strong></dt>
+                            <dd>Giant's Island!</dd>
 
-    </article>
-    <hr>
-    
-    <article id="members">
-        <h3>MEMBERS</h3>
-        <section>
-            <h4>Monkey D. Luffy</h4>
-            <figure>
-               <img src="images/luffy.png" alt="Luffy" title="Luffy's pic!!" width="447" height="334" loading="lazy">
-                <figcaption> Monkey D. Luffy</figcaption>
-            </figure>
-            <p>About Luffy</p>
-            <ul>
-            <li>Luffy will become <strong><em>the pirate king.</em></strong></li>
-            <li>Meat lover</li>
-            <li>The man</li>
-            </ul>
-        </section>
+                            <dt><strong>EGGHEAD!</strong></dt>
+                            <dd>sci-fi place woo</dd>
+                            
+                            <dt><strong>WANO!</strong></dt>
+                            <dd>samurai land</dd>
 
-        <section>
-        <h4>Roronoa Zoro</h4>
-        <figure>
-            <img src="images/zoro.png" alt="Zoro" title="Zoro's pic!!" width="401" height="477" loading="lazy">
-            <figcaption> Roronoa Zoro</figcaption>
-        </figure>
-        <p>About Zoro</p>
-            <ul>
-            <li>Moss head.</li>
-            <li>Righthand man</li>
-            </ul>
-        </section>
-        <!--Add other members later-->
-        <aside>
-            <details>
-                <summary>
-                    Guess the <mark>number of members</mark> Strawhats!
-                </summary>
-                <p>Total of 10!</p>
-                <!--If necessary datetime tag can be used for-->
-                <br>
-                <table>
-                    <caption>Strawhats Members</caption>
-                    <thead>
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th scope="col">Members</th>
-                        <th scope="col">Role</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Monkey d. Luffy</td>
-                        <td>Captain</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="2" scope="row">2</th>
-                        <td rowspan="2">Roronoa Zoro</td>
-                        <td>Swordsman</td>
-                    </tr>
-                    <tr><td>Crew Combatant</td></tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Nami</td>
-                        <td>Navigator</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">We all part of this crew</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">We are!</td>
-                    </tr>
-                </tfoot>
-                </table>
-            </details>
-        </aside>
-    </article>
+                            <dt><strong>Many More!</strong></dt>
+                            <dd>Hi Hi hiii</dd>
 
-    <hr>
 
-    <article id="contact">
-        <h2>Want to become one of Strawhats?</h2>
-        <p>If you want adventure, join in!</p>
+                        </dl>
+                    </address>
 
-        <form action="https://httpbin.org/get" method="get">
-            <fieldset>
-                <legend>Nakama Info</legend>
-            <p>
-                <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" id="firstname" placeholder="nakama name?" autocomplete="on" required >
-            </p>
-            <p>
-                <label for="lastname">Last Name:</label>
-                <input type="text" name="lastname" id="lastname" placeholder="nakama surrname?" autocomplete="on" required >
-            </p>
-            <p>
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="secret?" required >
-            </p>
-            <p>
-                <label for="dendenmushi">Den den mushi:</label>
-                <input type="tel" name="dendenmushi" id="dendenmushi" placeholder="xxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
-            </p>
-            <p>
-                <label for="favn">Fav number between 0-9:</label>
-                <input type="number" name="favn" id="favn" min="0" max="9" value="0">
-            </p>
-<!--
-            <p>
-                <label for="share">Would you share your food with the captain?</label>
-                <select name="share" id="share" multiple size="5">
-                    <optgroup label="YES!!">
-                        <option value="yes">yes</option>
-                        <option value="yes2">YES</option>
-                    </optgroup>
-                    <optgroup label="YeS!">
-                        <option value="yes3">of Course!</option>
-                        <option value="yes4">not YESn't</option>
-                    </optgroup>
-                </select>
-            </p> 
--->
-            <p>
-                <label for="share">Would you share your food with the captain?</label>
-                <input type="text" name="share" id="share" list="options">
-                <datalist id="options">
-                    <option value="yes">
-                    <option value="YES">
-                    <option value="OF COURSE">
-                    <option value="NO no yesn't">
-                </datalist>
+                </article>
+                <hr>
             
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend>FAV FOOD??</legend>
-            <p>
-                <input type="checkbox" name="food" id="meat" value="meat">
-                <label for="meat">Meat</label>
-            </p>
-            <p>
-                <input type="checkbox" name="food" id="veggies" value="veggies">
-                <label for="veggies">Veggies</label>
-            </p>
-            <p>
-                <input type="checkbox" name="food" id="mushroom" value="mushroom">
-                <label for="mushroom">Mushroom</label>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend>Are you allergic to seastone?</legend>
-            <p>
-                <input type="radio" name="hm" id="yes1" value="yes">
-                <label for="yes1">YES</label>
-            </p>
-            <p>
-                <input type="radio" name="hm" id="no1" value="no">
-                <label for="no1">NO</label>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend>Send Strawhats a message!</legend>
-            <label for="message">Your message:</label>
-            <br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message!"></textarea>
-        </fieldset>
-        <br>
-        <button type="submit">Submit</button>
-        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
-        <button type="reset">Reset</button>
-        </form>
+                <article id="members">
+                    <h2>MEMBERS</h2>
+                    <section>
+                        <h4>Monkey D. Luffy</h4>
+                        
+                        <div class="two-collumn">
+                            <div>
+                                <p>About Luffy</p>
+                                <ul>
+                                <li>Luffy will become <strong><em>the pirate king.</em></strong></li>
+                                <li>Meat lover</li>
+                                <li>The man</li>
+                                </ul>
+                            </div>
+                            
+                            <figure>
+                                <img src="images/luffy.png" alt="Luffy" title="Luffy's pic!!" loading="lazy">
+                                    <figcaption> Monkey D. Luffy</figcaption>
+                            </figure>
+                        </div>
+                    </section>
 
-    </article>
-    </main>
-    
-    <hr>
-    <footer>
-       <p> &lt;&lt;&lt; &copy; <a href="about.html">Makiaki</a> &gt;&gt;&gt;
-        </p>
-        <p>
-            <a href="#">Back to top</a>
-        </p>
-    </footer>
+                    <section>
+                    <h4>Roronoa Zoro</h4>
+                    
+                        <div class="two-collumn">
+                            <figure>
+                                <img src="images/zoro.png" alt="Zoro" title="Zoro's pic!!" loading="lazy">
+                                <figcaption> Roronoa Zoro</figcaption>
+                            </figure>
+                            <div>
+                                <p>About Zoro</p>
+                                    <ul>
+                                    <li>Moss head.</li>
+                                    <li>Righthand man</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!--Add other members later-->
+                </article>
+
+                <section>
+                    <p><a href="https://one-piece.com/index.html">More info on <abbr title = "One Piece">OP</abbr></abbr></a></p>
+                </section>
+
+
+                <section>
+                    <div class="pop-up">
+                        <aside>
+                            <details>
+                                <summary>
+                                    Guess the number of members in Strawhats!
+                                </summary>
+                                <p>Total of 10!</p>
+                                <!--If necessary datetime tag can be used for-->
+                                <br>
+                                <table>
+                                    <caption>Strawhats Members</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th scope="col">Members</th>
+                                        <th scope="col">Role</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Monkey d. Luffy</td>
+                                        <td>Captain</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="2" scope="row">2</th>
+                                        <td rowspan="2">Roronoa Zoro</td>
+                                        <td>Swordsman</td>
+                                    </tr>
+                                    <tr><td>Crew Combatant</td></tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Nami</td>
+                                        <td>Navigator</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">We all part of this crew</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">We are!</td>
+                                    </tr>
+                                </tfoot>
+                                </table>
+                            </details>
+                        </aside>
+                    </div>
+                </section>
+                
+                <article id="contact">
+                    <h2>Want to become one of Strawhats?</h2>
+                    <p>If you want adventure, join in!</p>
+
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Nakama Info</legend>
+                        <p>
+                            <label for="firstname">First Name:</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="nakama name?" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="nakama surrname?" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="secret?" required >
+                        </p>
+                        <p>
+                            <label for="dendenmushi">Den den mushi:</label>
+                            <input type="tel" name="dendenmushi" id="dendenmushi" placeholder="xxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+                        </p>
+                        <p>
+                            <label for="favn">Fav number between 0-9:</label>
+                            <input type="number" name="favn" id="favn" min="0" max="9" value="0">
+                        </p>
+                        <!--
+                        <p>
+                            <label for="share">Would you share your food with the captain?</label>
+                            <select name="share" id="share" multiple size="5">
+                                <optgroup label="YES!!">
+                                    <option value="yes">yes</option>
+                                    <option value="yes2">YES</option>
+                                </optgroup>
+                                <optgroup label="YeS!">
+                                    <option value="yes3">of Course!</option>
+                                    <option value="yes4">not YESn't</option>
+                                </optgroup>
+                            </select>
+                        </p> 
+                        -->
+                        <p>
+                            <label for="share">Would you share your food with the captain?</label>
+                            <input type="text" name="share" id="share" list="options">
+                            <datalist id="options">
+                                <option value="yes">
+                                <option value="YES">
+                                <option value="OF COURSE">
+                                <option value="NO no yesn't">
+                            </datalist>
+                        
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>FAV FOOD??</legend>
+                        <p>
+                            <input type="checkbox" name="food" id="meat" value="meat">
+                            <label for="meat">Meat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="food" id="veggies" value="veggies">
+                            <label for="veggies">Veggies</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="food" id="mushroom" value="mushroom">
+                            <label for="mushroom">Mushroom</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Are you allergic to seastone?</legend>
+                        <p>
+                            <input type="radio" name="hm" id="yes1" value="yes">
+                            <label for="yes1">YES</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="hm" id="no1" value="no">
+                            <label for="no1">NO</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Send Strawhats a message!</legend>
+                        <label for="message">Your message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message!"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                    </form>
+
+                </article>
+
+                <div class="back-to-top">
+                    <p>
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </main>
+        
+            <footer class="feet">
+                <p> &lt;&lt;&lt; &copy; <a href="about.html">Makiaki</a> &gt;&gt;&gt;</p>
+            </footer>
+        </div>
     </body>
 
 </html>

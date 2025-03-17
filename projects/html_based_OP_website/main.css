@@ -1,26 +1,139 @@
-html {
-    font-size:20px
-}
 body {
-    background-color: #333;
-    color: whitesmoke;
+    background-color: #f8f5ee;
+    color: #333;
+    font-size: 1.6rem;
 }
 
+.wrapper {
+    max-inline-size: 800px;
+    margin-inline: auto;
+}
+
+.two-collumn {
+    display: grid;
+    gap: 10px;
+
+    @media (width > 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 12%;
+    height: auto;
+}
+
+.primary-navigation ul{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-navigation ul li a {
+    padding: 8px 12px;
+    font-size: 1.3rem;
+    margin: 0;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.header-header {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-block: 5rem;
+}
+
+article {
+    padding: 0.5rem;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
 a {
-    color: aliceblue;
+    color:#333;
+    text-decoration: none;
 }
 
 a:visited {
-    color: lightgray;
+    color: #333;
 }
 
 a:hover, a:active {
-    color: #eee;
+    color: #949393;
+}
+
+.pop-up {
+    align-content: center;
+    color: #fff;
+    background-color: rgb(216, 63, 63);
+    border: #fc6a6a solid 2px;
+    padding: 20px;
+    padding-inline-start: 50px;
+}
+
+.peak {
+    color: rgb(216, 63, 63);
+    font-weight: bolder;
+    font-style: italic;
 }
 
 table, tr, th, td, caption {
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.back-to-top {
+    background-color: #eee;
+    color: #333;
+    border: 2px solid #333;
+    padding: 15px 30px; 
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+.back-to-top a, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+  
+.back-to-top a:hover, a:focus {
+    color: #757474;
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(216, 63, 63);
+    border: #fc6a6a solid 2px;
+    width: 100%;
+    padding: 0;
+}
+
+.feet a {
+    color: #eee;
+    text-decoration: none;
 }
